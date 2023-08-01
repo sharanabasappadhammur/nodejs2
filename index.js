@@ -1,6 +1,3 @@
-import axios from "axios";
-import tough from "tough-cookie"
-import fetch from "node-fetch";
 import express, { response } from "express"
 const app = express()
 import dotenv from 'dotenv'
