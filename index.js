@@ -9,6 +9,10 @@ import cors from 'cors'
 app.use(cors())
 app.use(express.json())
 
+app.get("/",(req,res)=>{
+    res.send("hello")
+})
+
 app.listen(process.env.PORT, async () => {
     try {
         console.log("connected to server")
